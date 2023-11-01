@@ -11,7 +11,7 @@ const Header = () => {
   return (
     <header className="header">
       <img src={Logo} alt="logo" className="logo" />
-      {!menu && mobile ? (
+      {menu && mobile ? (
         <div
           onClick={() => setMenu(!menu)}
           style={{
